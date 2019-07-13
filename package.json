@@ -1,0 +1,42 @@
+{
+  "name": "validate-data-using-joi",
+  "version": "1.0.0",
+  "description": "nodejs ❄️ + express ☄️ + joi 🎭 + p-meter 📏 = perfect validation ✔️",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --exec node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:3imed-jaberi/validate-data-using-joi-and-p-meter.git"
+  },
+  "keywords": [
+    "validate",
+    "validate-data",
+    "validate-forms",
+    "@hapi/joi",
+    "joi",
+    "@3imed-jaberi/p-meter",
+    "p-meter",
+    "express",
+    "es6"
+  ],
+  "author": "imed jaberi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "joi": "^14.3.1",
+    "morgan": "^1.9.1",
+    "p-meter": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "bugs": {
+    "url": "https://github.com/validate-data-using-joi-and-p-meter/issues"
+  },
+  "homepage": "https://github.com/validate-data-using-joi-and-p-meter#readme"
+}
